@@ -5,16 +5,12 @@ public class person {
 	private String name;
 	private int age;
 	private String address;
-	private String[] hobby;
-	private String phone;
+	private String email;
+	private boolean married;
 	
 	public person() {}
 
-//	public person(String name, int age, String address, double height) {
-//		super();
-//		this.name = name;
-//		this.age = age;
-//	}
+
 
 	public String getName() {
 		return name;
@@ -40,21 +36,31 @@ public class person {
 		this.address = address;
 	}
 
-	public String[] getHobby() {
-		return hobby;
+
+
+	public String getEmail() {
+		return email;
 	}
 
-	public void setHobby(String[] hobby) {
-		this.hobby = hobby;
+
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
-	public String getPhone() {
-		return phone;
+
+
+	public boolean isMarried() {
+		return married;
 	}
 
-	public void setPhone(String phone) {
-		this.phone = phone;
+
+
+	public void setMarried(boolean married) {
+		this.married = married;
 	}
+
+
 
 	
 	
