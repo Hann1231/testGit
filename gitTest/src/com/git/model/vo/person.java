@@ -7,6 +7,8 @@ public class person {
 	private String address;
 	private String email;
 	private boolean married;
+	private double height;
+	private double wieght;
 	
 	public person() {}
 
@@ -41,24 +43,49 @@ public class person {
 	public String getEmail() {
 		return email;
 	}
+	
+	public double getHeight() {
+		return height;
+	}
+
 
 
 
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
+	public void setHeight(double height) {
+		this.height = height;
+
+	}
+
 
 
 
 	public boolean isMarried() {
 		return married;
 	}
+	
+	public double getWieght() {
+		return wieght;
+
+	}
+
 
 
 
 	public void setMarried(boolean married) {
 		this.married = married;
 	}
+
+	public void setWieght(double wieght) {
+		this.wieght = wieght;
+
+	}
+
+
+
 
 
 
