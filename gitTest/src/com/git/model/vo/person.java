@@ -5,16 +5,12 @@ public class person {
 	private String name;
 	private int age;
 	private String address;
-	private String[] hobby;
-	private String phone;
+	private double height;
+	private double wieght;
 	
 	public person() {}
 
-//	public person(String name, int age, String address, double height) {
-//		super();
-//		this.name = name;
-//		this.age = age;
-//	}
+
 
 	public String getName() {
 		return name;
@@ -40,21 +36,30 @@ public class person {
 		this.address = address;
 	}
 
-	public String[] getHobby() {
-		return hobby;
+
+
+	public double getHeight() {
+		return height;
 	}
 
-	public void setHobby(String[] hobby) {
-		this.hobby = hobby;
+
+
+	public void setHeight(double height) {
+		this.height = height;
 	}
 
-	public String getPhone() {
-		return phone;
+
+
+	public double getWieght() {
+		return wieght;
 	}
 
-	public void setPhone(String phone) {
-		this.phone = phone;
+
+
+	public void setWieght(double wieght) {
+		this.wieght = wieght;
 	}
+
 
 	
 	
